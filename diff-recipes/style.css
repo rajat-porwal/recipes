@@ -1,0 +1,27 @@
+#Main{
+    border: 4px palevioletred;
+    border-style: double;
+    background-color: #b2a4be;
+}
+
+.link:link{
+    color: blue;
+}
+
+.link:visited{
+    color: brown;
+}
+
+.link:hover{
+    color: teal;
+}
+
+.heading{
+    background-color: red;
+    color: green;
+    font-size: 36px;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
