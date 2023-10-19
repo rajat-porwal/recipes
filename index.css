@@ -1,18 +1,43 @@
-.heading{
-    background-color: #583f6e;
-    font-size: xx-large;
-    font-weight:800 ;
-    color: white;
+body{
+    background-color: hsl(197, 98%, 16%);
+    width: max-content;
+    margin: 16px auto;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
-.link:link{
+.main{
+    background-color: aliceblue;
+    padding: 8px;
+    box-shadow: 2px 2px 1px rgb(173, 0, 0) inset;
+}
+
+.heading{
+    background-color: #583f6e;
+    margin: 0 auto;
+    padding: 6px;
+    text-align: center;
+    font-size: 38px;
+    font-weight:800 ;
+    color: white;
+    border-style: double;
+    border-color: black;
+}
+
+.links{
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.links:link{
     color: blue;
 }
 
-.link:visited{
+.links:visited{
     color: brown;
 }
 
-.link:hover{
+.links:hover{
     color: teal;
 }
